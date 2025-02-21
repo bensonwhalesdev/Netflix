@@ -10,7 +10,8 @@ body{
 }
 header{
     background-image: url("./images/background.jpg");
-    height: 95vh;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.486) ),  url("./images/background.jpg");
     background-repeat: no-repeat;
 }
 nav{
