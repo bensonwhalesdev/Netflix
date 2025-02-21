@@ -70,6 +70,10 @@ nav{
     width: 80%;
     margin: auto;
 }
+.caro-img{
+    display: flex;
+    gap: 1em;
+}
 .wrap{
     display: flex;
     padding-top: 20px;
