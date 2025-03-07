@@ -12,6 +12,7 @@ header{
     background-image: url("./images/background.jpg");
     height: 95vh;
     background-repeat: no-repeat;
+    opacity: 0.8;
 }
 nav{
     width: 80%;
@@ -102,7 +103,7 @@ nav{
 }
 .accordion-button:not(.collapsed) {
  background-color: black;
-color: white;
+ color: white;
 }
 .accordion-button{
  background-color: black;
@@ -127,6 +128,12 @@ color: white;
 .last-foot a{
     color: #ffffff9c;
 }
+/* media-query */
+@media(max-width:1262px){
+    #caro-ing{
+        width: 170px;
+    }
+}
 @media(max-width:1000px){
     .wrap{
         flex-direction: column;
@@ -137,6 +144,9 @@ color: white;
     #card img{
         padding-left: 500px;
     }
+    #caro-ing{
+        width: 150px;
+    }
 }
 @media(max-width:774px){
     #card{
@@ -145,10 +155,16 @@ color: white;
     #card img{
         padding-left: 300px;
     }
+    #caro-ing{
+        width: 120px;
+    }
 }
 @media(max-width:763px){
     .hero-sect h1{
         font-size: 40px;
+    }
+    #caro-ing{
+        width: 100px;
     }
 }
 @media(max-width:556px){
@@ -161,6 +177,9 @@ color: white;
     }
     .last-foot{
         gap: 4em;
+    }
+    #caro-ing{
+        width: 80px;
     }
 }
 @media(max-width:430px){
@@ -176,6 +195,9 @@ color: white;
     .last-foot{
         gap: 2em;
     }
+    #caro-ing{
+        width: 70px;
+    }
 }
 @media(max-width:335px){
     #card{
@@ -184,5 +206,8 @@ color: white;
     }
     #card img{
         padding-left: 70px;
+    }
+    #caro-ing{
+        width: 60px;
     }
 }
